@@ -1,1 +1,5 @@
-
+def remove_every_other(arr):
+    return arr[::2]
+example_array = ["Keep", "Remove", "Keep", "Remove", "Keep", "Remove"]
+result = remove_every_other(example_array)
+print(result)  
